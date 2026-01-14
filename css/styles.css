@@ -17,7 +17,7 @@
     --color-text-secondary: #8b949e;
     --color-text-muted: #6e7681;
     --color-border: #30363d;
-    
+
     /* Typography */
     --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --font-size-xs: 0.75rem;
@@ -29,7 +29,7 @@
     --font-size-3xl: 2rem;
     --font-size-4xl: 2.5rem;
     --font-size-5xl: 3.5rem;
-    
+
     /* Spacing */
     --spacing-xs: 0.25rem;
     --spacing-sm: 0.5rem;
@@ -39,11 +39,11 @@
     --spacing-2xl: 3rem;
     --spacing-3xl: 4rem;
     --spacing-4xl: 6rem;
-    
+
     /* Layout */
     --max-width: 1200px;
     --nav-height: 72px;
-    
+
     /* Transitions */
     --transition-fast: 150ms ease;
     --transition-base: 250ms ease;
@@ -51,7 +51,9 @@
 }
 
 /* Reset & Base */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -315,8 +317,13 @@ ul {
 }
 
 @keyframes radar-sweep {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* Buttons */
@@ -824,6 +831,33 @@ ul {
     background-color: var(--color-bg-secondary);
 }
 
+.contact-response-info {
+    margin-top: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background-color: var(--color-bg-tertiary);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+}
+
+.contact-response-info p {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    line-height: 1.6;
+}
+
+.contact-response-info .response-time {
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text-secondary);
+}
+
+.contact-response-info .nda-notice {
+    font-style: italic;
+}
+
 /* Footer */
 .footer {
     background-color: var(--color-bg-secondary);
@@ -848,43 +882,43 @@ ul {
         grid-template-columns: 1fr;
         text-align: center;
     }
-    
+
     .hero-content {
         max-width: 100%;
     }
-    
+
     .hero-visual {
         display: none;
     }
-    
+
     .grid-3 {
         grid-template-columns: 1fr;
     }
-    
+
     .solution-content {
         grid-template-columns: 1fr;
     }
-    
+
     .solution-diagram {
         order: -1;
     }
-    
+
     .tech-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .use-cases-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .about-content {
         grid-template-columns: 1fr;
     }
-    
+
     .investors-content {
         grid-template-columns: 1fr;
     }
-    
+
     .contact-content {
         grid-template-columns: 1fr;
     }
@@ -896,7 +930,7 @@ ul {
         --font-size-4xl: 2rem;
         --font-size-3xl: 1.5rem;
     }
-    
+
     .nav-menu {
         position: fixed;
         top: var(--nav-height);
@@ -912,38 +946,38 @@ ul {
         visibility: hidden;
         transition: all var(--transition-base);
     }
-    
+
     .nav-menu.active {
         transform: translateY(0);
         opacity: 1;
         visibility: visible;
     }
-    
+
     .nav-toggle {
         display: flex;
     }
-    
+
     .nav-toggle.active span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }
-    
+
     .nav-toggle.active span:nth-child(2) {
         opacity: 0;
     }
-    
+
     .nav-toggle.active span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px);
     }
-    
+
     .step {
         flex-direction: column;
         gap: var(--spacing-md);
     }
-    
+
     .step-number {
         font-size: var(--font-size-2xl);
     }
-    
+
     .footer-content {
         flex-direction: column;
         gap: var(--spacing-md);
