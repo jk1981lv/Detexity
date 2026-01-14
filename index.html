@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detexity develops autonomous counter-UAS systems that detect, classify, and neutralise hostile drones in real time.">
+    <meta name="keywords" content="counter-drone, counter-UAS, drone detection, drone neutralisation, airspace security, critical infrastructure protection">
+    <title>Detexity | Autonomous Counter-UAS Systems</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="assets/logo.png" alt="Detexity" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#problem" class="nav-link">Problem</a></li>
+                <li><a href="#solution" class="nav-link">Solution</a></li>
+                <li><a href="#technology" class="nav-link">Technology</a></li>
+                <li><a href="#use-cases" class="nav-link">Use Cases</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#investors" class="nav-link">Investors</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Autonomous Counter-UAS Systems</h1>
+                <p class="hero-tagline">Detect. Decide. Neutralise.</p>
+                <p class="hero-description">
+                    The counter-drone market is fragmented. Detection systems operate in isolation. 
+                    Decision-making relies on manual intervention. Response is often delayed or disproportionate.
+                </p>
+                <p class="hero-description">
+                    Detexity integrates multi-sensor detection, AI-driven decision intelligence, and controlled 
+                    neutralisation into a unified autonomous system.
+                </p>
+                <a href="#solution" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="hero-visual">
+                <div class="radar-container">
+                    <div class="radar-ring radar-ring-1"></div>
+                    <div class="radar-ring radar-ring-2"></div>
+                    <div class="radar-ring radar-ring-3"></div>
+                    <div class="radar-sweep"></div>
+                    <div class="radar-center"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="section section-dark" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Threat Landscape</h2>
+                <p class="section-subtitle">Modern drone technology has outpaced traditional airspace security measures</p>
+            </div>
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Proliferation</h3>
+                    <p class="card-text">
+                        Commercial drones are increasingly weaponised. Low-cost platforms enable asymmetric threats 
+                        against high-value targets. Swarm capabilities multiply risk exponentially.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Fragmentation</h3>
+                    <p class="card-text">
+                        Current solutions address detection, classification, or neutralisation in isolation. 
+                        Integration gaps create response delays and operational blind spots.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Response Time</h3>
+                    <p class="card-text">
+                        Manual decision-making cannot match autonomous threats. The window between detection 
+                        and impact is measured in seconds. Human-only loops are insufficient.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="section" id="solution">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Detexity Platform</h2>
+                <p class="section-subtitle">End-to-end autonomous counter-UAS capability</p>
+            </div>
+            <div class="solution-content">
+                <div class="solution-text">
+                    <p>
+                        Detexity delivers a fully integrated counter-drone system that operates across the 
+                        complete threat engagement cycle. From initial detection through classification, 
+                        decision-making, and controlled response.
+                    </p>
+                    <ul class="solution-list">
+                        <li>
+                            <span class="solution-list-marker"></span>
+                            <span>Multi-sensor fusion for reliable detection in complex environments</span>
+                        </li>
+                        <li>
+                            <span class="solution-list-marker"></span>
+                            <span>AI-powered classification with low false-positive rates</span>
+                        </li>
+                        <li>
+                            <span class="solution-list-marker"></span>
+                            <span>Configurable autonomy levels with human-in-the-loop options</span>
+                        </li>
+                        <li>
+                            <span class="solution-list-marker"></span>
+                            <span>Proportionate, controlled neutralisation methods</span>
+                        </li>
+                        <li>
+                            <span class="solution-list-marker"></span>
+                            <span>Full audit trail and compliance documentation</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="solution-diagram">
+                    <div class="diagram-flow">
+                        <div class="diagram-node diagram-node-input">
+                            <span>RF Sensors</span>
+                        </div>
+                        <div class="diagram-node diagram-node-input">
+                            <span>Radar</span>
+                        </div>
+                        <div class="diagram-node diagram-node-input">
+                            <span>Optical</span>
+                        </div>
+                        <div class="diagram-connector"></div>
+                        <div class="diagram-node diagram-node-core">
+                            <span>Detexity AI Core</span>
+                        </div>
+                        <div class="diagram-connector"></div>
+                        <div class="diagram-node diagram-node-output">
+                            <span>Response</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section section-dark" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Three-stage autonomous response cycle</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Detect</h3>
+                        <p class="step-text">
+                            Multi-sensor array continuously monitors protected airspace. RF detection, radar tracking, 
+                            and optical confirmation provide layered awareness. Sensor fusion eliminates gaps and 
+                            reduces false positives.
+                        </p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Decide</h3>
+                        <p class="step-text">
+                            AI classification engine identifies threat type, intent probability, and risk level. 
+                            Decision intelligence recommends proportionate response. Human-in-the-loop confirmation 
+                            available for sensitive environments.
+                        </p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Act</h3>
+                        <p class="step-text">
+                            Controlled neutralisation executed within defined parameters. Response is proportionate, 
+                            documented, and compliant. Full engagement audit trail maintained for legal and operational review.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="section" id="technology">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technology</h2>
+                <p class="section-subtitle">Engineering precision for critical security applications</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <h3 class="tech-title">Multi-Sensor Fusion</h3>
+                    <p class="tech-text">
+                        Detexity integrates RF detection, primary radar, and electro-optical sensors into a 
+                        unified detection layer. Correlation algorithms cross-reference sensor inputs in real-time, 
+                        providing verified track data with reduced false alarm rates.
+                    </p>
+                    <ul class="tech-specs">
+                        <li>RF spectrum analysis: 400MHz - 6GHz</li>
+                        <li>Radar detection range: configurable to site requirements</li>
+                        <li>Optical confirmation: day/night capable</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h3 class="tech-title">AI Classification Engine</h3>
+                    <p class="tech-text">
+                        Machine learning models trained on extensive drone signature databases. Classification 
+                        distinguishes between commercial platforms, modified threats, and authorized operations. 
+                        Continuous learning improves accuracy over deployment lifetime.
+                    </p>
+                    <ul class="tech-specs">
+                        <li>Platform identification accuracy: &gt;95%</li>
+                        <li>Threat assessment latency: &lt;500ms</li>
+                        <li>Adaptive model updates via secure channel</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h3 class="tech-title">Decision Intelligence</h3>
+                    <p class="tech-text">
+                        Rules engine processes threat data against configurable engagement policies. 
+                        Supports fully autonomous, semi-autonomous, and human-in-the-loop operational modes. 
+                        All decisions logged with complete audit trail.
+                    </p>
+                    <ul class="tech-specs">
+                        <li>Configurable rules of engagement</li>
+                        <li>Multi-level authorization support</li>
+                        <li>Real-time operator interface</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h3 class="tech-title">Controlled Neutralisation</h3>
+                    <p class="tech-text">
+                        Response mechanisms calibrated for proportionate effect. System selects optimal 
+                        neutralisation method based on threat type, environment, and collateral considerations. 
+                        Engagement parameters defined by site policy.
+                    </p>
+                    <ul class="tech-specs">
+                        <li>Multiple effector integration</li>
+                        <li>Graduated response capability</li>
+                        <li>Compliance with applicable regulations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="section section-dark" id="use-cases">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Use Cases</h2>
+                <p class="section-subtitle">Protecting critical assets across sectors</p>
+            </div>
+            <div class="use-cases-grid">
+                <div class="use-case">
+                    <div class="use-case-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                        </svg>
+                    </div>
+                    <h3 class="use-case-title">Airports & Aviation</h3>
+                    <p class="use-case-text">
+                        Drone incursions cause costly flight delays and pose collision risks. Detexity provides 
+                        continuous airspace monitoring with integration to airport operations systems. 
+                        Compliant with civil aviation authority requirements.
+                    </p>
+                    <ul class="use-case-benefits">
+                        <li>Minimise operational disruption</li>
+                        <li>Protect approach and departure corridors</li>
+                        <li>Coordinate with air traffic management</li>
+                    </ul>
+                </div>
+                <div class="use-case">
+                    <div class="use-case-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="use-case-title">Energy & Infrastructure</h3>
+                    <p class="use-case-text">
+                        Power stations, substations, and transmission infrastructure are vulnerable to surveillance 
+                        and sabotage. Detexity secures perimeters with minimal infrastructure requirements. 
+                        Designed for remote and unmanned site deployment.
+                    </p>
+                    <ul class="use-case-benefits">
+                        <li>24/7 autonomous monitoring</li>
+                        <li>Low maintenance deployment</li>
+                        <li>Integration with existing security systems</li>
+                    </ul>
+                </div>
+                <div class="use-case">
+                    <div class="use-case-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l5.447 2.724A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+                        </svg>
+                    </div>
+                    <h3 class="use-case-title">Border Security</h3>
+                    <p class="use-case-text">
+                        Drones enable smuggling, surveillance of security operations, and illegal border crossings. 
+                        Detexity extends border monitoring capability with persistent coverage. 
+                        Mobile deployment options for dynamic threat environments.
+                    </p>
+                    <ul class="use-case-benefits">
+                        <li>Extended range detection</li>
+                        <li>Mobile and fixed installation options</li>
+                        <li>Coordination with ground response units</li>
+                    </ul>
+                </div>
+                <div class="use-case">
+                    <div class="use-case-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="use-case-title">Defense & Military</h3>
+                    <p class="use-case-text">
+                        Force protection against reconnaissance and attack drones. Base security for forward 
+                        operating locations. Integration with existing command and control systems. 
+                        Designed to military environmental and interface standards.
+                    </p>
+                    <ul class="use-case-benefits">
+                        <li>Mil-spec hardened options</li>
+                        <li>C2 system integration</li>
+                        <li>Rapid deployment capability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Detexity</h2>
+                <p class="section-subtitle">Engineering-driven. Safety-first. Responsible technology.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Detexity was founded to address the growing gap between drone threat capability 
+                        and available countermeasures. We develop autonomous systems that protect people, 
+                        infrastructure, and airspace.
+                    </p>
+                    <p>
+                        Our approach prioritises engineering rigour over marketing claims. We build systems 
+                        that work reliably in operational conditions. Every design decision balances 
+                        effectiveness against safety and proportionality.
+                    </p>
+                    <p>
+                        We recognise the responsibility inherent in developing autonomous security systems. 
+                        Our technology includes safeguards, audit capabilities, and human oversight options 
+                        appropriate to each deployment context.
+                    </p>
+                </div>
+                <div class="about-values">
+                    <div class="value">
+                        <h4 class="value-title">Precision</h4>
+                        <p class="value-text">Low false-positive rates. Accurate classification. Proportionate response.</p>
+                    </div>
+                    <div class="value">
+                        <h4 class="value-title">Reliability</h4>
+                        <p class="value-text">Systems designed for continuous operation in demanding environments.</p>
+                    </div>
+                    <div class="value">
+                        <h4 class="value-title">Accountability</h4>
+                        <p class="value-text">Full audit trails. Transparent decision logic. Compliance-ready documentation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investors Section -->
+    <section class="section section-dark" id="investors">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">For Investors</h2>
+                <p class="section-subtitle">Strategic opportunity in defense technology</p>
+            </div>
+            <div class="investors-content">
+                <div class="investor-block">
+                    <h3 class="investor-title">Market Opportunity</h3>
+                    <p class="investor-text">
+                        The global counter-drone market is projected to exceed $7 billion by 2030. 
+                        Growth is driven by increasing drone proliferation, regulatory requirements, 
+                        and high-profile security incidents. Current solutions remain fragmented 
+                        and operationally immature.
+                    </p>
+                </div>
+                <div class="investor-block">
+                    <h3 class="investor-title">Strategic Position</h3>
+                    <p class="investor-text">
+                        Detexity addresses the integration gap in the counter-drone market. 
+                        Our unified platform reduces procurement complexity and operational overhead 
+                        for customers. European development ensures ITAR-free export capability 
+                        and NATO interoperability alignment.
+                    </p>
+                </div>
+                <div class="investor-block">
+                    <h3 class="investor-title">Investment Thesis</h3>
+                    <ul class="investor-points">
+                        <li>Large and growing addressable market with strong regulatory tailwinds</li>
+                        <li>Technology differentiation through integrated AI-driven approach</li>
+                        <li>Clear path to government and institutional customers</li>
+                        <li>Experienced team with defense and deep-tech background</li>
+                        <li>Capital-efficient development with hardware-software integration</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="investor-cta">
+                <p>For investor enquiries, please contact us directly.</p>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">We welcome enquiries from qualified prospects</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="founders">
+                        <h3 class="contact-heading">Leadership</h3>
+                        <div class="founder">
+                            <p class="founder-name">Janis Krauklis</p>
+                            <p class="founder-role">Co-founder & CEO</p>
+                        </div>
+                        <div class="founder">
+                            <p class="founder-name">Toms Miks</p>
+                            <p class="founder-role">Co-founder & CTO</p>
+                        </div>
+                    </div>
+                    <div class="contact-email">
+                        <h3 class="contact-heading">Email</h3>
+                        <p class="email-protected" id="email-protected">
+                            <span class="email-text">Enable JavaScript to view email</span>
+                            <button class="email-reveal-btn" id="email-reveal">Reveal Email</button>
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-notice">
+                    <p>
+                        We respond to all legitimate enquiries. Please include relevant context 
+                        about your organisation and requirements.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Detexity" class="logo-img logo-img-small">
+                </div>
+                <p class="footer-text">&copy; 2025 Detexity. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
