@@ -89,6 +89,14 @@ ul {
     list-style: none;
 }
 
+/* Brand Name Styling */
+.brand-name {
+    font-weight: 600;
+    font-style: italic;
+    color: var(--color-accent-light);
+    letter-spacing: 0.02em;
+}
+
 /* Container */
 .container {
     width: 100%;
