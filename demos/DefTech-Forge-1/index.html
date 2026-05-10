@@ -1,1 +1,162 @@
-Video will be uploaded soon!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Detexity demo videos showcasing autonomous counter-UAS detection and neutralisation capabilities.">
+    <title>Demos | Detexity</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.detexity.com/demos/DefTech-Forge-1/">
+    <meta property="og:title" content="Demos | Detexity">
+    <meta property="og:description"
+        content="Detexity demo videos showcasing autonomous counter-UAS detection and neutralisation capabilities.">
+    <meta property="og:image" content="https://www.detexity.com/assets/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="https://www.detexity.com/assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="48x48" href="https://www.detexity.com/assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.detexity.com/assets/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="https://www.detexity.com/assets/favicon-144x144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="https://www.detexity.com/assets/favicon-192x192.png">
+    <link rel="stylesheet" href="https://www.detexity.com/css/styles.css">
+
+    <style>
+        .demos-header {
+            padding-top: calc(var(--nav-height) + var(--spacing-3xl));
+            padding-bottom: var(--spacing-2xl);
+        }
+
+        .demos-event-label {
+            font-size: var(--font-size-sm);
+            font-weight: 500;
+            color: var(--color-accent-light);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .demos-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--spacing-xl);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .demo-card {
+            background-color: var(--color-bg-tertiary);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: border-color var(--transition-base);
+        }
+
+        .demo-card:hover {
+            border-color: var(--color-accent);
+        }
+
+        .demo-video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 177.78%;
+            background-color: var(--color-bg-primary);
+        }
+
+        .demo-video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .demo-info {
+            padding: var(--spacing-lg);
+        }
+
+        .demo-title {
+            font-size: var(--font-size-xl);
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .demo-description {
+            font-size: var(--font-size-sm);
+            color: var(--color-text-secondary);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .demos-grid {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: #0d1117; color: #ebf2fe; font-family: 'Inter', sans-serif;">
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <img src="https://www.detexity.com/assets/logo.svg" alt="Detexity" class="logo-img">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="section demos-header">
+        <div class="container">
+            <div class="section-header">
+                <p class="demos-event-label">BraveTech EU DefTech Forges</p>
+                <h1 class="section-title">Demos</h1>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Demos -->
+    <section class="section section-dark">
+        <div class="container">
+            <div class="demos-grid">
+
+                <div class="demo-card">
+                    <div class="demo-video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/YaHML8qk8gw?rel=0&modestbranding=1" title="Detexity demo"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="demo-info">
+                        <h2 class="demo-title">Video from Field Tests</h2>
+                        <p class="demo-description">Autonomous drone detection using the Detexity platform.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://www.detexity.com/assets/logo.svg" alt="Detexity Logo" class="logo-img logo-img-small" loading="lazy">
+                </div>
+                <p class="footer-text">&copy; 2026 Detexity. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
