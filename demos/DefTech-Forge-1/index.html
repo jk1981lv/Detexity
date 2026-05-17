@@ -27,24 +27,33 @@
 
     <style>
         .demos-header {
-            padding-top: calc(var(--nav-height) + var(--spacing-3xl));
-            padding-bottom: var(--spacing-2xl);
+            padding-top: calc(var(--nav-height) + var(--spacing-sm));
+            padding-bottom: 0;
+        }
+
+        .demos-header .section-header {
+            margin-bottom: 0;
+        }
+
+        .demos-header .section-title {
+            font-size: var(--font-size-2xl);
+            margin-bottom: 0;
         }
 
         .demos-event-label {
-            font-size: var(--font-size-sm);
+            font-size: var(--font-size-xs);
             font-weight: 500;
             color: var(--color-accent-light);
             text-transform: uppercase;
             letter-spacing: 0.1em;
-            margin-bottom: var(--spacing-md);
+            margin-bottom: var(--spacing-xs);
         }
 
         .demos-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
             gap: var(--spacing-xl);
-            max-width: 900px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
@@ -92,6 +101,10 @@
             line-height: 1.6;
         }
 
+        .section-dark {
+            padding-top: var(--spacing-md);
+        }
+
         @media (max-width: 768px) {
             .demos-grid {
                 grid-template-columns: 1fr;
@@ -132,7 +145,7 @@
 
                 <div class="demo-card">
                     <div class="demo-video-wrapper">
-                        <iframe src="https://www.youtube.com/embed/2KH6g4zEKkc?rel=0&modestbranding=1" title="Detexity demo"
+                        <iframe src="https://www.youtube.com/embed/2KH6g4zEKkc?rel=0&modestbranding=1&vq=hd1080" title="Detexity demo"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen loading="lazy"></iframe>
                     </div>
